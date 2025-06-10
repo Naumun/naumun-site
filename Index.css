@@ -1,0 +1,138 @@
+
+    body {
+      margin: 0;
+      font-family: "Times New Roman", Times, serif;
+      background-color: #f0f0f0;
+    }
+
+    header {
+      background-color: #04345c;
+      position: relative;
+      padding: 1rem 2rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 80px;
+    }
+
+    .header-logo {
+      position: absolute;
+      left: 20px;
+      top: 10px;
+      height: 60px;
+    }
+
+    .header-title {
+      font-size: 2.6rem;
+      color: #f8ba06;
+      font-family: Georgia, serif;
+    }
+
+    nav {
+      display: flex;
+      justify-content: center;
+      background-color: #04345c;
+    }
+
+    nav a {
+      color: #f8ba06;
+      padding: 1rem 2rem;
+      text-decoration: none;
+      font-weight: bold;
+      font-family: Georgia, serif;
+      font-size: 1.3rem;
+    }
+
+    nav a:hover {
+      background-color: #f8ba06;
+      color: #04345c;
+    }
+
+    .tab {
+      display: none;
+      padding: 0;
+    }
+
+    .active {
+      display: block;
+    }
+
+    .image-container {
+      position: relative;
+      height: 100vh;
+      overflow: hidden;
+    }
+
+    .home-image {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      position: absolute;
+      top: 0;
+      left: 0;
+      transition: opacity 0.5s ease-out;
+    }
+
+    .home-content {
+      background-color: white;
+      padding: 3rem;
+      color: black;
+      font-family: "Times New Roman", Times, serif;
+    }
+
+    .home-content h2 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+    }
+
+    .home-content p {
+      font-size: 1.1rem;
+      line-height: 1.6;
+    }
+
+    .section-break {
+      border: none;
+      border-top: 4px solid #04345c;
+      width: 50%;
+      margin: 2rem 0;
+      margin-left: 0;
+    }
+
+    footer {
+      background-color: #04345c;
+      color: #f8ba06;
+      padding: 1.5rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+
+    .footer-logo {
+      height: 60px;
+    }
+
+    .footer-icons a {
+      margin-left: 1rem;
+    }
+
+    .footer-icons img {
+      width: 32px;
+      height: 32px;
+      vertical-align: middle;
+    }
+
+.team-container {
+      padding: 3rem;
+      background-color: #ffffff;
+    }
+
+    .team-photo {
+      width: 200px;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 50%;
+      margin-bottom: 1rem;
+      border: 3px solid #04345c;
+    }
+
